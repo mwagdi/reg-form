@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<Fragment>
+  <Form
+    fields={
+      Array [
+        Object {
+          "conditions": Array [],
+          "label": "Email",
+          "type": "email",
+        },
+        Object {
+          "conditions": Array [
+            Object {
+              "test": [Function],
+              "title": "8+ characters",
+            },
+            Object {
+              "test": [Function],
+              "title": "lowercase letter",
+            },
+            Object {
+              "test": [Function],
+              "title": "uppercase letter",
+            },
+            Object {
+              "test": [Function],
+              "title": "number",
+            },
+            Object {
+              "test": [Function],
+              "title": "special character",
+            },
+          ],
+          "label": "Password",
+          "type": "password",
+        },
+      ]
+    }
+    title="Registration Form"
+  />
+</Fragment>
+`;

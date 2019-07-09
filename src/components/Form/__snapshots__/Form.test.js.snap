@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form renders correctly 1`] = `
+<form
+  className="regForm"
+  onSubmit={[Function]}
+>
+  <h2
+    className="regForm__title"
+  />
+  <input
+    className="regForm__submit"
+    type="submit"
+    value="Submit"
+  />
+</form>
+`;
