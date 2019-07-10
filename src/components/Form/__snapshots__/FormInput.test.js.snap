@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput renders correctly 1`] = `
+<div
+  className="regForm__field"
+>
+  <label
+    htmlFor="text"
+  >
+    Text Field
+  </label>
+  <input
+    name="text"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <span
+    key="0"
+  >
+    Valid text
+     - 
+    false
+  </span>
+</div>
+`;

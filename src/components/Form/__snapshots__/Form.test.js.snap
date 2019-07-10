@@ -8,6 +8,26 @@ exports[`Form renders correctly 1`] = `
   <h2
     className="regForm__title"
   />
+  <FormInput
+    field={
+      Object {
+        "label": "Email",
+        "type": "email",
+      }
+    }
+    key="0"
+    onChange={[Function]}
+  />
+  <FormInput
+    field={
+      Object {
+        "label": "Password",
+        "type": "password",
+      }
+    }
+    key="1"
+    onChange={[Function]}
+  />
   <input
     className="regForm__submit"
     type="submit"

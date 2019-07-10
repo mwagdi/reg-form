@@ -4,11 +4,18 @@ import Form from './components/Form/Form';
 const fields = [
     {
         label: "Email",
+        name: "email",
         type: "email",
-        conditions: []
+        conditions: [
+            {
+                title: "Valid email",
+                test: str => /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(str)
+            }
+        ]
     },
     {
         label: "Password",
+        name: "password",
         type: "password",
         conditions: [
             {
